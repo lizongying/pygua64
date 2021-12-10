@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pygua64/__init__.py
+src/pygua64/gua64.py
+src/pygua64.egg-info/PKG-INFO
+src/pygua64.egg-info/SOURCES.txt
+src/pygua64.egg-info/dependency_links.txt
+src/pygua64.egg-info/top_level.txt
