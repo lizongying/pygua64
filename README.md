@@ -2,6 +2,12 @@
 
 六十四卦代替base64
 
+## install
+
+```
+pip install pygua64
+```
+
 ## example
 
 ```
