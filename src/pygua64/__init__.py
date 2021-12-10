@@ -1,1 +1,1 @@
-name = 'gua64'
+name = 'pygua64'
