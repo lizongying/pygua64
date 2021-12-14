@@ -21,11 +21,13 @@ def encode(s):
             encoded += gua[(c >> 12) & 0x3f].encode()
             encoded += gua[(c >> 6) & 0x3f].encode()
             encoded += gua[c & 0x3f].encode()
+            continue
         if len(s[i: i + 3]) == 2:
             encoded += gua[c >> 10].encode()
             encoded += gua[c >> 4 & 0x3f].encode()
             encoded += gua[(c & 0xf) << 2].encode()
             encoded += '☯'.encode()
+            continue
         if len(s[i: i + 3]) == 1:
             encoded += gua[c >> 2].encode()
             encoded += gua[(c & 0x3) << 4].encode()
